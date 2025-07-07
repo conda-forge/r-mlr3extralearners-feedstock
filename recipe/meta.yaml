@@ -1,4 +1,4 @@
-{% set version = '1.0.0' %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -8,7 +8,7 @@ package:
 source:
   url:
     - https://github.com/mlr-org/mlr3extralearners/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: ff82ebfdf95228e76753c82066db4be214b364ce297d2d68f98f3b61d7645c50
+  sha256: 22fe224092c14912a4176813949281206e2d9ec6a4e7085d79931eea4c04e187
 
 build:
   number: 0
