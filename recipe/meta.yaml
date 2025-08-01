@@ -27,20 +27,20 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-r6
     - r-checkmate
     - r-data.table
-    - r-mlr3 >=0.21.1
     - r-mlr3misc >=0.9.4
     - r-paradox >=1.0.1
+    - r-r6
+    - r-reticulate
   run:
     - r-base
-    - r-r6
     - r-checkmate
     - r-data.table
-    - r-mlr3 >=0.21.1
     - r-mlr3misc >=0.9.4
     - r-paradox >=1.0.1
+    - r-r6
+    - r-reticulate
 
 test:
   commands:
