@@ -29,6 +29,7 @@ requirements:
     - r-base
     - r-checkmate
     - r-data.table
+    - r-mlr3 >=1.0.0
     - r-mlr3misc >=0.9.4
     - r-paradox >=1.0.1
     - r-r6
@@ -37,6 +38,7 @@ requirements:
     - r-base
     - r-checkmate
     - r-data.table
+    - r-mlr3 >=1.0.0
     - r-mlr3misc >=0.9.4
     - r-paradox >=1.0.1
     - r-r6
